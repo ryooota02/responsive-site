@@ -102,7 +102,7 @@ section {
   #camera .Cameras {
     -webkit-flex: 1;
     flex: 1;
-    margin: 10px 0;
+    margin: 10px;
     padding: 20px;
     background-color: #fdfcf6;
     -moz-border-radius: 4px;
