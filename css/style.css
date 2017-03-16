@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #0000;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #0000; }
+
+a {
+  color: #0000;
+  text-decoration: none; }
+  a:visited {
+    color: #0f949b; }
+  a:hover {
+    color: #0f949b; }
+  a:active {
+    color: #16d6e0; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Layout
+------------------------------------------------------------*/
+.block-center, section .container, #skills i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Font
+------------------------------------------------------------*/
+.abel, section h2, #skills h3, #works .works-box a .works-box-inner .button-readmore {
+  font-family: 'Abel', sans-serif; }
+
+.uppercase, section h2, #skills h3, #works .works-box a .works-box-inner .button-readmore {
+  text-transform: uppercase; }
+
+@media (min-width: 1025px) {
+  /* Base
+  ------------------------------------------------------------*/
+  a:hover {
+    text-decoration: underline; } }
+/* Header
+------------------------------------------------------------*/
+
+
+header .headpic {
+  background-image: url("../images/5D0I9A3624_TP_V.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+header .site-title {
+  font-size: 1.8rem;
+  line-height: normal; }
+  header .site-title span {
+    display: block;
+    font-size: 4.2rem;
+    color: #14c0c9; }
+header .profile-icon {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 30px auto; }
+header p {
+  font-size: 1.6rem; }
+
+@media (max-width: 768px) {
+    header .headpic {
+  height: 250px;
+}
+ }
+/* Contents
+------------------------------------------------------------*/
+section {
+  padding: 60px 0; }
+  section .container {
+    width: 90%; }
+  section h2 {
+    font-size: 3.2rem; }
+
+#camera {
+  background-color: #808080; }
+  #camera .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  #camera h2 {
+    color: #fdfcf6;
+    margin-bottom: 60px; }
+  #camera .Cameras {
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fdfcf6;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #camera i {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    background-color: #14c0c9;
+    font-size: 4.5rem;
+    color: #FFF;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  #camera h3 {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    font-weight: bold; }
+
+@media (min-width: 769px) {
+  #camera .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #camera .skill-box {
+    margin: 0 10px; } }
+    
+.amazon {
+    width:200px;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    margin: 0 auto; 
+    padding:8px 0 10px;
+    color:#fff;
+    background-color:#fff;
+    border-radius:25px;
+}
+    
+    
+
+
+/* Footer
+------------------------------------------------------------*/
+footer {
+  background-color: #808080;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFF; }
+
+@media (min-width: 769px) {
+  #contact ul a:hover {
+    background-color: #0f949b; } }
+
+/*# sourceMappingURL=style.css.map */
+
